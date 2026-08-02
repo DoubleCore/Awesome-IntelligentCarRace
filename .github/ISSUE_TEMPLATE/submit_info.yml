@@ -22,7 +22,7 @@ body:
     id: open-source-group
     attributes:
       label: 组别
-      description: 填入竞赛组别（请填入组别全称）
+      description: 填入竞赛组别全称（例如：智能视觉组）
     validations:
       required: true
   - type: textarea
@@ -36,7 +36,7 @@ body:
     id: open-source-award
     attributes:
       label: 年份、获奖
-      description: 填入项目获奖、年份信息
+      description: 填入年份、项目获奖信息（例如：2025年第20届浙江赛区省二）
     validations:
       required: true
   - type: textarea
